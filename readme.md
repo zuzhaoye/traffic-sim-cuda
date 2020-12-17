@@ -30,13 +30,13 @@ run()
 ```
 
 There are 4 parameters of the ```run()```: 
-- sim_steps         ```(10), (1 - any integer)``` (Use 0 can cause an error, which will be addressed later)
-- road_length      ```(1km), (0.1 - 1000)```
-- cell_size        ```(1m), (0.1 - 1)```
-- traffic_density  ```(30 veh/km/lane), (5 - 80)```
+- ```sim_steps```         ```(10)```, (1 - any integer) (Use 0 can cause an error, which will be addressed later)
+- ```road_length```      ```(1km)```, (0.1 - 1000)
+- ```cell_size```        ```(1m)```, (0.1 - 1)
+- ```traffic_density```  ```(30 veh/km/lane)```, (5 - 80)
 
 Note, the parentheses means: 
-- Parameter ```(default value), (recommended & tested range)```
+- ```Parameter```  ```(default value)```, (recommended & tested range)
 
 An example: simulate 5 steps, with road length 0.5:
 ```
