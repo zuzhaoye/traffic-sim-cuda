@@ -1,4 +1,4 @@
-This is an implementation of Numba CUDA to accelerate agent-based traffic flow simulation. Forward driving and lane changing are included in the model.
+This is an implementation of Numba CUDA to accelerate agent-based traffic flow simulation. Forward driving and lane changing are included in the model. Check the [report](Report.pdf) for details.
 
 ![road_gif](imgs/animation.gif)
 
